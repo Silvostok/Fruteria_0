@@ -28,6 +28,7 @@
 		4FBEA7211B7E6A5E00E96347 /* MultilineLabelThatWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBEA7201B7E6A5E00E96347 /* MultilineLabelThatWorks.swift */; };
 		4FF8A07C1B7F2966002F945E /* ShoppingListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8A07B1B7F2966002F945E /* ShoppingListTableViewCell.swift */; };
 		4FF8A07E1B7F6C8F002F945E /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8A07D1B7F6C8F002F945E /* ShoppingListViewController.swift */; };
+		4FF8A0801B810074002F945E /* CreateShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8A07F1B810074002F945E /* CreateShoppingListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		4FBEA7201B7E6A5E00E96347 /* MultilineLabelThatWorks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultilineLabelThatWorks.swift; sourceTree = "<group>"; };
 		4FF8A07B1B7F2966002F945E /* ShoppingListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListTableViewCell.swift; sourceTree = "<group>"; };
 		4FF8A07D1B7F6C8F002F945E /* ShoppingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
+		4FF8A07F1B810074002F945E /* CreateShoppingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateShoppingListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				4FBEA6F41B7B760E00E96347 /* StoreViewController.swift */,
 				4FBEA7141B7DEDE800E96347 /* DataStoreUtils.swift */,
 				4FF8A07D1B7F6C8F002F945E /* ShoppingListViewController.swift */,
+				4FF8A07F1B810074002F945E /* CreateShoppingListViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				4FBEA71B1B7E1BA300E96347 /* NavigationViewController.swift in Sources */,
 				4FF8A07E1B7F6C8F002F945E /* ShoppingListViewController.swift in Sources */,
+				4FF8A0801B810074002F945E /* CreateShoppingListViewController.swift in Sources */,
 				4FF8A07C1B7F2966002F945E /* ShoppingListTableViewCell.swift in Sources */,
 				4FBEA70D1B7B811900E96347 /* DataModel.swift in Sources */,
 				4FBEA7151B7DEDE800E96347 /* DataStoreUtils.swift in Sources */,
