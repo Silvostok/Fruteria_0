@@ -29,6 +29,7 @@
 		4FF8A07C1B7F2966002F945E /* ShoppingListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8A07B1B7F2966002F945E /* ShoppingListTableViewCell.swift */; };
 		4FF8A07E1B7F6C8F002F945E /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8A07D1B7F6C8F002F945E /* ShoppingListViewController.swift */; };
 		4FF8A0801B810074002F945E /* CreateShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8A07F1B810074002F945E /* CreateShoppingListViewController.swift */; };
+		4FF8A0821B81D185002F945E /* SelectableProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8A0811B81D185002F945E /* SelectableProductTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		4FF8A07B1B7F2966002F945E /* ShoppingListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListTableViewCell.swift; sourceTree = "<group>"; };
 		4FF8A07D1B7F6C8F002F945E /* ShoppingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
 		4FF8A07F1B810074002F945E /* CreateShoppingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateShoppingListViewController.swift; sourceTree = "<group>"; };
+		4FF8A0811B81D185002F945E /* SelectableProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectableProductTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				4FF8A07B1B7F2966002F945E /* ShoppingListTableViewCell.swift */,
 				4FBEA7161B7DF11D00E96347 /* ProductTableViewCell.swift */,
 				4FBEA7201B7E6A5E00E96347 /* MultilineLabelThatWorks.swift */,
+				4FF8A0811B81D185002F945E /* SelectableProductTableViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				4FBEA7131B7DE10F00E96347 /* ShoppingListTableViewController.swift in Sources */,
 				4FBEA6F51B7B760E00E96347 /* StoreViewController.swift in Sources */,
 				4FBEA70B1B7B7A2A00E96347 /* Product.swift in Sources */,
+				4FF8A0821B81D185002F945E /* SelectableProductTableViewCell.swift in Sources */,
 				4FBEA71F1B7E607A00E96347 /* ProductViewController.swift in Sources */,
 				4FBEA7171B7DF11D00E96347 /* ProductTableViewCell.swift in Sources */,
 				4FBEA6F11B7B760E00E96347 /* AppDelegate.swift in Sources */,
