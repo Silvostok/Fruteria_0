@@ -17,16 +17,12 @@ class ShoppingListViewController: UIViewController {
   @IBOutlet weak var totalCostLabel: UILabel!
   
   
-  var dataStore: DataStore?
-  var shoppingList: ShoppingList? {
+  var dataStore : DataStore?
+  var shoppingList : ShoppingList? {
     didSet {
-      
-      
+      updateViewForShoppingList()
     }
   }
-  
-  
-  //Default Property Value with a Closure
   
   private static var dateFormatter : NSDateFormatter = {
     let df = NSDateFormatter()
@@ -34,21 +30,14 @@ class ShoppingListViewController: UIViewController {
     return df
     }()
   
-  
-  
-  
-  
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-      
-      configureTableView(tableView)
-      updateViewForShoppingList()
-      
-    }
-
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    // Do any additional setup after loading the view.
+    configureTableView(tableView)
+    updateViewForShoppingList()
+  }
 }
-
 
 extension ShoppingListViewController {
   private func updateViewForShoppingList() {
@@ -59,7 +48,7 @@ extension ShoppingListViewController {
     }
     tableView?.reloadData()
   }
-
+  
   private func configureTableView(tableView: UITableView) {
     tableView.rowHeight = UITableViewAutomaticDimension
     tableView.estimatedRowHeight = 100
@@ -69,8 +58,6 @@ extension ShoppingListViewController {
     tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 49, right: 0)
     tableView.separatorStyle = .None
   }
-  
-  
 }
 
 

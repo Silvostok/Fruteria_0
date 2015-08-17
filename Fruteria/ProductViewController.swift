@@ -15,6 +15,8 @@ class ProductViewController: UIViewController {
   @IBOutlet weak var detailsLabel: MultilineLabelThatWorks!
   @IBOutlet weak var priceLabel: UILabel!
   
+  
+  
   var product: Product? {
     didSet {
       updateViewForProduct()

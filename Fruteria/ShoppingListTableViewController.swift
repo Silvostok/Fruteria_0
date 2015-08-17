@@ -66,7 +66,10 @@ class ShoppingListTableViewController: UITableViewController, DataStoreOwner {
     }
   }
 
-  
- 
+}
 
+extension ShoppingListTableViewController {
+  @IBAction func unwindToShoppingListTableVC(unwindSegue: UIStoryboardSegue) {
+    tableView.reloadData()
+  }
 }
