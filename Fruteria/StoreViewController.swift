@@ -15,7 +15,9 @@ class StoreViewController: UIViewController {
   
   @IBOutlet weak var mapView: MKMapView!
   
-  let coordinate = CLLocationCoordinate2D(latitude: 35.816667, longitude: -80.258611)
+  let storeName = "Mercado de San Miguel"
+  
+  let coordinate = CLLocationCoordinate2D(latitude: 40.415385, longitude: -3.708994)
 
   
   override func viewDidLoad() {

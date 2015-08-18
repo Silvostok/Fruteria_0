@@ -88,7 +88,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="216"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DZb-cq-c7Z">
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DZb-cq-c7Z">
                                             <rect key="frame" x="10" y="10" width="580" height="111"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="JhW-bY-4tc">
@@ -192,13 +192,13 @@
                                                                 <constraint firstAttribute="height" constant="50" id="Is4-66-hUy"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" type="system" weight="thin" pointSize="36"/>
-                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="coR-F9-W7i" customClass="MultilineLabelThatWorks" customModule="Fruteria" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="55" width="55" height="29"/>
                                                             <fontDescription key="fontDescription" type="system" weight="thin" pointSize="24"/>
-                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
@@ -206,7 +206,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$12" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2KJ-sH-F9f">
                                                     <rect key="frame" x="463" y="0.0" width="107" height="84"/>
                                                     <fontDescription key="fontDescription" type="system" weight="thin" pointSize="70"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -245,7 +245,7 @@
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="ProductName" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iDC-ge-jdn">
                                                                         <rect key="frame" x="110" y="0.0" width="490" height="132"/>
                                                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="32"/>
-                                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                 </subviews>
@@ -317,7 +317,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create new shop list" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m6y-5T-Aji" customClass="MultilineLabelThatWorks" customModule="Fruteria" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="333" height="48"/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="nro-lL-s6T">
@@ -329,7 +329,7 @@
                                                     <constraint firstAttribute="width" constant="57" id="sUt-If-o40"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="749" horizontalCompressionResistancePriority="749" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iIi-C4-iDN">
@@ -348,7 +348,7 @@
                                                     <constraint firstAttribute="width" constant="45" id="6bf-iw-Hsm"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="RGp-dn-zra">
@@ -368,7 +368,7 @@
                                                     <constraint firstAttribute="width" constant="51" id="rL9-bR-vIj"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="73" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="1OI-Be-3xV">
@@ -391,13 +391,13 @@
                                                                                 <constraint firstAttribute="width" constant="314" id="ZgW-Sn-pGE"/>
                                                                             </constraints>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NameLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YOp-qa-exG">
                                                                             <rect key="frame" x="314" y="0.0" width="145" height="72"/>
                                                                             <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
-                                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
@@ -540,8 +540,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="fruit" translatesAutoresizingMaskIntoConstraints="NO" id="rgg-nK-69t">
-                                <rect key="frame" x="0.0" y="-20" width="600" height="600"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fruit" translatesAutoresizingMaskIntoConstraints="NO" id="rgg-nK-69t">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x3F-nM-Mse">
                                 <rect key="frame" x="10" y="94" width="580" height="427"/>
@@ -549,27 +549,27 @@
                                     <rect key="frame" x="0.0" y="0.0" width="580" height="427"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="gaK-1s-BiT">
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="gaK-1s-BiT">
                                             <rect key="frame" x="20" y="20" width="540" height="387"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjK-RF-vRN">
-                                                    <rect key="frame" x="0.0" y="0.0" width="82" height="43"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mercado de San Miguel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjK-RF-vRN">
+                                                    <rect key="frame" x="0.0" y="0.0" width="354" height="25"/>
                                                     <fontDescription key="fontDescription" type="system" weight="thin" pointSize="36"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="☏ (202) 555 0198 " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aiP-pu-ede">
-                                                    <rect key="frame" x="0.0" y="43" width="223" height="34"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="☏ (01) 555 0198 " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aiP-pu-ede">
+                                                    <rect key="frame" x="0.0" y="31" width="203" height="34"/>
                                                     <fontDescription key="fontDescription" type="system" weight="thin" pointSize="28"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heW-eK-IJl">
-                                                    <rect key="frame" x="0.0" y="77" width="219" height="58"/>
-                                                    <string key="text">2627 Mulberry Street 
-Lexington, NC 27292</string>
+                                                    <rect key="frame" x="0.0" y="71" width="206" height="58"/>
+                                                    <string key="text">Plaza de San Miguel 
+812456, Madrid</string>
                                                     <fontDescription key="fontDescription" type="system" weight="thin" pointSize="24"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="749" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="plQ-R4-Pqe">
@@ -647,11 +647,11 @@ Lexington, NC 27292</string>
             </objects>
             <point key="canvasLocation" x="-165" y="-98"/>
         </scene>
-        <!--Products-->
+        <!--Productos-->
         <scene sceneID="t1N-iw-Chd">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vEk-rV-QFH" customClass="NavigationViewController" customModule="Fruteria" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Products" image="fruitbowl" id="sxu-6C-Oi1"/>
+                    <tabBarItem key="tabBarItem" title="Productos" image="fruitbowl" id="sxu-6C-Oi1"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DOi-CM-V1K">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -666,11 +666,11 @@ Lexington, NC 27292</string>
             </objects>
             <point key="canvasLocation" x="814" y="-819"/>
         </scene>
-        <!--ShoppingList-->
+        <!--Lista de compras-->
         <scene sceneID="Ieg-9k-k5I">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3cK-eE-qF4" customClass="NavigationViewController" customModule="Fruteria" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="ShoppingList" image="basket" id="Ks8-CB-2rg"/>
+                    <tabBarItem key="tabBarItem" title="Lista de compras" image="basket" id="Ks8-CB-2rg"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Q7F-n6-Ers">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -685,11 +685,11 @@ Lexington, NC 27292</string>
             </objects>
             <point key="canvasLocation" x="806" y="60"/>
         </scene>
-        <!--Store-->
+        <!--Tienda-->
         <scene sceneID="2Wn-h0-g85">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZyX-9L-bTX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Store" image="store-green" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Tienda" image="store-green" id="cPa-gy-q4n"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mrr-04-MwJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
