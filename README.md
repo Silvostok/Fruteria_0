@@ -2,7 +2,7 @@
 Sample project - xCode 7, Swift 2 and iOS 9
 
 
-A sample project where it shows concepts I'm learning in xCode 7, Swift 2 and iOS 9.
+A sample project where it shows the code of concepts I'm learning in xCode 7, Swift 2 and iOS 9.
 
 Custom Protocol / Extension
 
@@ -18,7 +18,8 @@ Swifts Protocol
 final Class	
 	
 Init
-	convenience	
+	convenience
+	failable
 	
 	
 	
@@ -27,7 +28,8 @@ Functional Swift
 
 	flatMap
 	filter
-	map	
+	map
+	reduce
 	
 	
 	
