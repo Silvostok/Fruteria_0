@@ -94,6 +94,7 @@ extension NSURL {
 }
 
 
+
 // MARK:- Managing shopping lists
 extension DataStore {
   func addShoppingList(shoppingList: ShoppingList) {

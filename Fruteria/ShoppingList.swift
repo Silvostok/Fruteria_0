@@ -69,6 +69,10 @@ func ==(lhs: ShoppingList, rhs: ShoppingList) -> Bool {
   return lhs.id.isEqual(rhs.id)
 }
 
+
+
+// Convienance methodes
+
 private func mapProductIDListToProductList(productIDList: [String]) -> [Product]? {
   let products = productIDList.flatMap(findProductForIDString)
   if products.count == productIDList.count {

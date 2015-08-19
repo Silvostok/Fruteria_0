@@ -12,7 +12,7 @@
 			<key>price</key>
 			<integer>3</integer>
 			<key>details</key>
-			<string>An apple a day keeps the doctor away.</string>
+			<string>Todos los dias una manazana. Más sano imposible!</string>
 			<key>photoName</key>
 			<string>apples</string>
 		</dict>
@@ -24,7 +24,7 @@
 			<key>price</key>
 			<integer>4</integer>
 			<key>details</key>
-			<string>Juicy and firm - just as you like it</string>
+			<string>Ideal para zumos y para mordisquear - como prefieras.</string>
 			<key>photoName</key>
 			<string>pears</string>
 		</dict>
@@ -36,7 +36,7 @@
 			<key>price</key>
 			<integer>5</integer>
 			<key>details</key>
-			<string>What an excellent source of potassium!</string>
+			<string>Una excelente fuente de potasio!</string>
 			<key>photoName</key>
 			<string>bananas</string>
 		</dict>
@@ -48,7 +48,7 @@
 			<key>price</key>
 			<integer>10</integer>
 			<key>details</key>
-			<string>Enjoy life that little bit more - with a cherry on top!</string>
+			<string>Disfruta la vida - decórala con cerezas!</string>
 			<key>photoName</key>
 			<string>cherries</string>
 		</dict>
@@ -60,9 +60,21 @@
 			<key>price</key>
 			<integer>6</integer>
 			<key>details</key>
-			<string>Fancy making wine? Or sultanas? You need to get yourself some grapes</string>
+			<string>Disfrutas haciendo vino? O pasas? Entonces consigues un buen racimo de uvas</string>
 			<key>photoName</key>
 			<string>grapes</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>39B49B8B-D60C-4BC3-A6C7-BD7FBB67C968</string>
+			<key>name</key>
+			<string>Granada</string>
+			<key>price</key>
+			<integer>6</integer>
+			<key>details</key>
+			<string>Llena de antioxiantes y color.</string>
+			<key>photoName</key>
+			<string>granadas</string>
 		</dict>
 	</array>
 	<key>shoppingLists</key>

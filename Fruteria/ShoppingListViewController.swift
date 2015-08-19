@@ -44,7 +44,7 @@ extension ShoppingListViewController {
     if let shoppingList = shoppingList {
       nameLabel?.text = shoppingList.name
       dateLabel?.text = self.dynamicType.dateFormatter.stringFromDate(shoppingList.date)
-      totalCostLabel?.text = "$\(shoppingList.products.reduce(0){ $0 + $1.price })"
+      totalCostLabel?.text = "€\(shoppingList.products.reduce(0){ $0 + $1.price })"
     }
     tableView?.reloadData()
   }

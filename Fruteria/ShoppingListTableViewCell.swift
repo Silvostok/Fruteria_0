@@ -34,7 +34,7 @@ class ShoppingListTableViewCell: UITableViewCell {
     didSet {
       if let shoppingList = shoppingList {
         nameLabel?.text = shoppingList.name
-        itemCountLabel?.text = "\(shoppingList.products.count) items"
+        itemCountLabel?.text = "\(shoppingList.products.count) unidades"
         dateLabel?.text = self.dynamicType.dateFormatter.stringFromDate(shoppingList.date)
       }
     }

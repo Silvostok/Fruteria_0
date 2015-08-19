@@ -48,10 +48,7 @@ class ProductTableViewController: UITableViewController, DataStoreOwner {
     return cell
   }
 
-  
-
-  
-  
+    
   // MARK: - Navigation
   override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
     if let destVC = segue.destinationViewController as? ProductViewController {
